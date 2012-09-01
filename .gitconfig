@@ -1,24 +1,25 @@
 [color]
-	ui = auto
+  ui = auto
 
 [alias]
   l = log --graph --pretty=oneline --abbrev-commit --decorate
 
 [diff]
-    tool = kdiff3
- 
+  tool = kdiff3
+
 [merge]
-    tool = kdiff3
- 
+  tool = kdiff3
+
 [mergetool "kdiff3"]
-    path = kdiff3
-    keepBackup = false
-    trustExitCode = false
- 
+  path = kdiff3
+  keepBackup = false
+  trustExitCode = false
+
 [difftool "kdiff3"]
-    path = kdiff3
-    keepBackup = false
-    trustExitCode = false
+  path = kdiff3
+  keepBackup = false
+  trustExitCode = false
+
 [user]
-	name = Ilya Scharrenbroich
-	email = ilya@doormates.com
+  name = Ilya Scharrenbroich
+  email = $EMAIL
