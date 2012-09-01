@@ -3,6 +3,10 @@
 
 [alias]
   l = log --graph --pretty=oneline --abbrev-commit --decorate
+  co = checkout
+
+[core]
+  editor = gvim -f
 
 [diff]
   tool = kdiff3
