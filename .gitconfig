@@ -4,6 +4,7 @@
 [alias]
   l = log --graph --pretty=oneline --abbrev-commit --decorate
   co = checkout
+  s = status
 
 [core]
   editor = gvim -f
